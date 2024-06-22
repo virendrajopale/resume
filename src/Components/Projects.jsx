@@ -68,7 +68,7 @@ const Projects = () => {
    
     projects.map((prj,index)=>{
         return ( 
-            <a href={prj.demo} target='_blank' className=' bg-white-400 border-2 border-yellow-500 rounded-lg shadow-[0.3em_0.3em] hover:-translate-x-[0.05em] hover:-translate-y-[0.05em] hover:shadow-[0.15em_0.15em_white] duration-200 cursor-pointer overflow-hidden'>
+            <a href={prj.demo} target='_blank' className=' bg-white-400 border-2 border-yellow-500 rounded-lg shadow-[0.3em_0.3em] hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[0.15em_0.15em_white] duration-200 cursor-pointer overflow-hidden'>
           <div className=' relative w-full'>
      
             <h1 className=' absolute z-20 flex text-center h-full w-full justify-center items-center text-yellow-400 bg-white/10 backdrop-blur-sm hover:backdrop-blur-0 duration-300 text-2xl font-playfair'>
